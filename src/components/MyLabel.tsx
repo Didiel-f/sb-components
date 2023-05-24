@@ -35,6 +35,7 @@ export const MyLabel = ({
     fontColor,
     backgroundColor = 'transparent'
 }: Props) => {
+  
   return (
     <span 
         className={`label ${ size } text-${ color }` }
